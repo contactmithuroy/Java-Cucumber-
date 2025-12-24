@@ -1,4 +1,4 @@
-package EALCucumber.EALCucumber;
+package cucumber2025.cucumber2025;
 
 /**
  * Hello world!
