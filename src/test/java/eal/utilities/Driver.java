@@ -186,6 +186,10 @@ public class Driver {
 		Driver.getDriver().manage().deleteAllCookies();
 		Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		Driver.getDriver().manage().window().maximize();
+		String URL = ConfigurationReader.getProperty("url");
+		Driver.getDriver().get(URL);
+		logger.info("URL Lunched:" + ConfigurationReader.getProperty("url"));
+		CommonMethods.waitForPageAndAjaxToLoad();
 	}
 
 }
