@@ -10,6 +10,16 @@ import org.apache.logging.log4j.Logger;
 
 import eal.utilities.LogColor;
 
+
+/*
+Its main purpose is to:
+Improve test execution visibility
+Clearly show which step is currently running
+Make logs readable and traceable during debugging
+
+This listener logs the currently executing Cucumber step name, improving traceability and debugging during test execution.
+
+ */
 public class StepNameListener implements ConcurrentEventListener {
     private String currentStepName;
     public static final Logger logger = LogManager.getLogger(StepNameListener.class);
