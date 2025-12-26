@@ -7,23 +7,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ConfigurationReader {
-
 	
 	private static Properties configFile;
 	public static final Logger logger = LogManager.getLogger(ConfigurationReader.class);
 	
-	
-	
 	static {
-
 		try {
 			String path = "Configuration.properties";
 			//String path; //----
 			 String profile = System.getProperty("profile"); // Get active profile 
 				logger.info(LogColor.Magenta+"****************** Current Profile: "+profile+"******************"+LogColor.RESET);
 	
-			 
-			 
 	            if (profile == null) {
 	                // Default to configuration.properties if no profile is specified
 	                path = "Configuration_RealBrowser.properties";
@@ -49,8 +43,4 @@ public class ConfigurationReader {
 	public static String getProperty(String keyName) {
 		return configFile.getProperty(keyName);
 	}
-	
-	
-
-
 }
