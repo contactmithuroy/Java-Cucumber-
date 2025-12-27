@@ -26,7 +26,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src\\test\\resources\\features",
 		glue = {"eal.step_definitions","eal.hooks"},
 		dryRun = false,
-		tags = "@test1",
+		tags = "@test2",
 		monochrome = true
 )
 
@@ -35,12 +35,11 @@ public class ealrunner extends CommonMethods {
 
 	@BeforeClass
 	public static void globalSetup() {
-		logger.info(LogColor.ThinnerPurple + "@BeforeClass-PDLRunner" + " Running one time" + LogColor.RESET);
-		Driver.BrowserSetup();
+		logger.info(LogColor.ThinnerPurple + "@BeforeClass-EALRunner" + " Running one time" + LogColor.RESET);
 	}
 
 	@AfterClass
 	public static void teardown() {
-		logger.info(LogColor.ThinnerPurple + "@AfterClass-PDLRunner" + " Running one time" + LogColor.RESET);
+		logger.info(LogColor.ThinnerPurple + "@AfterClass-EALRunner" + " Running one time" + LogColor.RESET);
 	}
 }

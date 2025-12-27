@@ -90,3 +90,114 @@
 23:11:03.170 WARN  [FileSystemFontProvider :360] Building on-disk font cache, this may take a while
 23:11:10.829 WARN  [FileSystemFontProvider :363] Finished building on-disk font cache, found 422 fonts
 23:11:13.179 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:34:53.981 INFO  [Driver :124] creating temp directory in -Chrome
+23:34:56.279 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:34:56.280 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:34:56.485 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:34:56.485 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+23:34:58.538 INFO  [Driver :219] URL Lunched:https://demo.guru99.com/
+23:34:59.328 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:34:59.329 WARN  [StepNameListener :46] [38;5;208mExecuting step: user is on homepage
+23:34:59.329 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:34:59.339 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:34:59.340 WARN  [StepNameListener :46] [38;5;208mExecuting step: user click on lgoin button
+23:34:59.340 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:35:02.749 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:37:34.327 INFO  [Driver :124] creating temp directory in -Chrome
+23:37:37.058 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:37:37.059 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:37:37.190 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:37:37.190 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+23:37:39.183 INFO  [Driver :219] URL Lunched:https://demo.guru99.com/
+23:37:39.470 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+23:37:39.471 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:37:40.550 INFO  [Driver :219] URL Lunched:https://demo.guru99.com/
+23:37:41.021 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+23:37:41.022 INFO  [Hooks :68] [32;1m================================================================[0m
+23:37:41.023 INFO  [Hooks :70] [32;1mScenario Title: Verify Cucumber framework setup[0m
+23:37:41.023 INFO  [Hooks :71] [32;1m================================================================[0m
+23:37:41.162 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+23:37:41.171 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:37:41.172 WARN  [StepNameListener :46] [38;5;208mExecuting step: user is on homepage
+23:37:41.173 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:37:41.179 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+23:37:41.188 INFO  [CommonMethods :1018] Capturing Screenshot
+23:37:41.367 INFO  [CommonMethods :1023] Screenshot Attached
+23:37:41.373 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:37:41.373 WARN  [StepNameListener :46] [38;5;208mExecuting step: user click on lgoin button
+23:37:41.374 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:37:41.379 INFO  [Hooks :106] [38;5;54m @after hook [0m
+23:37:41.379 INFO  [Hooks :107] [32;1m================================================================[0m
+23:37:41.382 INFO  [Hooks :108] [38;5;54mVerify Cucumber framework setup :- Status - UNDEFINED[0m
+23:37:41.383 INFO  [Hooks :109] [32;1m================================================================[0m
+23:37:41.403 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+23:37:41.404 INFO  [Hooks :129] Deleting cookies
+23:37:41.422 INFO  [Hooks :132] Closing the Driver
+23:37:41.422 INFO  [Hooks :139] Driver Closed
+23:37:45.759 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:53:52.658 INFO  [Driver :123] creating temp directory in -Chrome
+23:53:55.066 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:53:55.437 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+23:53:55.437 INFO  [Driver :212] [31;1mBrowser Setup[0m
+23:53:55.555 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:53:55.556 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+23:53:57.566 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/
+23:53:58.011 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+23:53:58.012 INFO  [Hooks :68] [32;1m================================================================[0m
+23:53:58.013 INFO  [Hooks :70] [32;1mScenario Title: Verify Cucumber framework setup[0m
+23:53:58.013 INFO  [Hooks :71] [32;1m================================================================[0m
+23:53:58.063 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+23:53:58.072 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:53:58.073 WARN  [StepNameListener :46] [38;5;208mExecuting step: user is on homepage
+23:53:58.074 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:53:58.081 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+23:53:58.088 INFO  [CommonMethods :1018] Capturing Screenshot
+23:53:58.217 INFO  [CommonMethods :1023] Screenshot Attached
+23:53:58.223 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:53:58.227 WARN  [StepNameListener :46] [38;5;208mExecuting step: user click on lgoin button
+23:53:58.229 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:53:58.234 INFO  [Hooks :106] [38;5;54m @after hook [0m
+23:53:58.235 INFO  [Hooks :107] [32;1m================================================================[0m
+23:53:58.237 INFO  [Hooks :108] [38;5;54mVerify Cucumber framework setup :- Status - UNDEFINED[0m
+23:53:58.238 INFO  [Hooks :109] [32;1m================================================================[0m
+23:53:58.263 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+23:53:58.263 INFO  [Hooks :129] Deleting cookies
+23:53:58.283 INFO  [Hooks :132] Closing the Driver
+23:53:58.284 INFO  [Hooks :139] Driver Closed
+23:54:01.682 INFO  [ealrunner :43] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+01:15:46.358 INFO  [Driver :123] creating temp directory in -Chrome
+01:15:50.436 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+01:15:50.861 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+01:15:50.862 INFO  [Driver :212] [31;1mBrowser Setup[0m
+01:15:50.967 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+01:15:50.968 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+01:15:53.027 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/
+01:15:53.551 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+01:15:53.552 INFO  [Hooks :68] [32;1m================================================================[0m
+01:15:53.553 INFO  [Hooks :70] [32;1mScenario Title: Verify Cucumber login setup[0m
+01:15:53.553 INFO  [Hooks :71] [32;1m================================================================[0m
+01:15:53.592 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:15:53.600 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:15:53.601 WARN  [StepNameListener :46] [38;5;208mExecuting step: user is on loginPage
+01:15:53.601 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:15:53.604 INFO  [LoginSteps :16] Successfully loaded login page
+01:15:53.608 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:15:53.615 INFO  [CommonMethods :1018] Capturing Screenshot
+01:15:53.775 INFO  [CommonMethods :1023] Screenshot Attached
+01:15:53.778 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:15:53.792 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:15:53.793 WARN  [StepNameListener :46] [38;5;208mExecuting step: user click on lgoin button
+01:15:53.793 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:15:53.795 INFO  [CommonMethods :23] Step Definition
+01:15:53.798 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:15:53.799 INFO  [CommonMethods :1018] Capturing Screenshot
+01:15:53.956 INFO  [CommonMethods :1023] Screenshot Attached
+01:15:53.961 INFO  [Hooks :106] [38;5;54m @after hook [0m
+01:15:53.962 INFO  [Hooks :107] [32;1m================================================================[0m
+01:15:53.965 INFO  [Hooks :108] [38;5;54mVerify Cucumber login setup :- Status - PASSED[0m
+01:15:53.966 INFO  [Hooks :109] [32;1m================================================================[0m
+01:15:53.980 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+01:15:53.981 INFO  [Hooks :129] Deleting cookies
+01:15:54.000 INFO  [Hooks :132] Closing the Driver
+01:15:54.000 INFO  [Hooks :139] Driver Closed
+01:15:58.950 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m

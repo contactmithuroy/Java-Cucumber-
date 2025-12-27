@@ -110,7 +110,6 @@ public class Driver {
 				chromePrefs.put("download.prompt_for_download", false);
 
 				chromeOptions.setExperimentalOption("prefs", chromePrefs);
-
 				// Arguments
 				chromeOptions.addArguments("--incognito"); // Chrome equivalent of Edge's inprivate
 				chromeOptions.addArguments("--disable-gpu"); // Disable GPU acceleration
