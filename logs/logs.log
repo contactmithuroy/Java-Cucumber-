@@ -1,0 +1,92 @@
+22:02:37.107 INFO  [Driver :124] creating temp directory in -Chrome
+22:03:07.102 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+22:03:07.103 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:03:07.395 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:03:07.397 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:03:07.409 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+22:12:56.099 INFO  [Driver :124] creating temp directory in -Chrome
+22:12:58.826 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+22:12:58.827 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:12:58.945 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:12:58.947 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:12:58.954 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+22:12:58.955 INFO  [Hooks :129] Deleting cookies
+22:12:58.978 INFO  [Hooks :132] Closing the Driver
+22:12:58.978 INFO  [Hooks :139] Driver Closed
+22:17:30.251 INFO  [Driver :124] creating temp directory in -Chrome
+22:17:33.323 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+22:17:33.324 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:17:33.633 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:17:33.634 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:17:33.640 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+22:19:44.332 INFO  [Driver :124] creating temp directory in -Chrome
+22:19:47.235 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+22:19:47.235 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:19:47.371 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:19:47.372 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:19:47.383 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+22:19:47.383 INFO  [Hooks :129] Deleting cookies
+22:19:47.408 INFO  [Hooks :132] Closing the Driver
+22:19:47.409 INFO  [Hooks :139] Driver Closed
+22:21:40.465 INFO  [Driver :124] creating temp directory in -Chrome
+22:21:43.089 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+22:21:43.089 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:21:43.259 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:21:43.260 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:21:43.291 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+22:21:43.292 INFO  [Hooks :129] Deleting cookies
+22:21:43.315 INFO  [Hooks :132] Closing the Driver
+22:21:43.316 INFO  [Hooks :139] Driver Closed
+22:57:17.967 INFO  [Driver :124] creating temp directory in -Chrome
+22:57:22.580 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+22:57:22.581 INFO  [Driver :213] [31;1mBrowser Setup[0m
+22:57:23.012 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+22:57:23.014 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+22:57:23.024 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:00:42.093 INFO  [Driver :124] creating temp directory in -Chrome
+23:00:44.543 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:00:44.544 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:00:44.782 INFO  [ConfigurationReader :19] [38;5;201m****************** Current Profile: null******************[0m
+23:00:44.783 INFO  [ConfigurationReader :24] Current configFile =Configuration_RealBrowser.properties
+23:00:44.789 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:09:17.624 INFO  [Driver :124] creating temp directory in -Chrome
+23:09:21.712 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:09:21.713 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:09:21.936 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:09:21.937 INFO  [ConfigurationReader :30] Current configFile =Configuration_RealBrowser.properties
+23:09:21.943 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
+23:10:53.722 INFO  [Driver :124] creating temp directory in -Chrome
+23:10:56.318 INFO  [ealrunner :38] [38;5;135m@BeforeClass-PDLRunner Running one time[0m
+23:10:56.319 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:10:56.477 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:10:56.478 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+23:10:59.369 INFO  [Driver :219] URL Lunched:https://demo.guru99.com/
+23:10:59.692 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+23:10:59.693 INFO  [Driver :213] [31;1mBrowser Setup[0m
+23:11:00.570 INFO  [Driver :219] URL Lunched:https://demo.guru99.com/
+23:11:01.081 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+23:11:01.082 INFO  [Hooks :68] [32;1m================================================================[0m
+23:11:01.083 INFO  [Hooks :70] [32;1mScenario Title: Verify Cucumber framework setup[0m
+23:11:01.083 INFO  [Hooks :71] [32;1m================================================================[0m
+23:11:01.124 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+23:11:01.135 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:11:01.136 WARN  [StepNameListener :46] [38;5;208mExecuting step: user is on homepage
+23:11:01.137 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:11:01.146 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+23:11:01.152 INFO  [CommonMethods :1018] Capturing Screenshot
+23:11:01.301 INFO  [CommonMethods :1023] Screenshot Attached
+23:11:01.320 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:11:01.321 WARN  [StepNameListener :46] [38;5;208mExecuting step: user click on lgoin button
+23:11:01.321 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:11:01.337 INFO  [Hooks :106] [38;5;54m @after hook [0m
+23:11:01.339 INFO  [Hooks :107] [32;1m================================================================[0m
+23:11:01.355 INFO  [Hooks :108] [38;5;54mVerify Cucumber framework setup :- Status - UNDEFINED[0m
+23:11:01.356 INFO  [Hooks :109] [32;1m================================================================[0m
+23:11:01.384 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+23:11:01.385 INFO  [Hooks :129] Deleting cookies
+23:11:01.526 INFO  [Hooks :132] Closing the Driver
+23:11:01.526 INFO  [Hooks :139] Driver Closed
+23:11:03.169 WARN  [FileSystemFontProvider :607] New fonts found, font cache will be re-built
+23:11:03.170 WARN  [FileSystemFontProvider :360] Building on-disk font cache, this may take a while
+23:11:10.829 WARN  [FileSystemFontProvider :363] Finished building on-disk font cache, found 422 fonts
+23:11:13.179 INFO  [ealrunner :44] [38;5;135m@AfterClass-PDLRunner Running one time[0m
