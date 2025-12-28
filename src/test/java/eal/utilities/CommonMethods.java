@@ -73,6 +73,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
 import com.google.common.base.Function;
+
+import eal.pages.HomePagePOM;
 /*
 import eal.pages.DashBoard_POM;
 import eal.pages.HomePage_POM;
@@ -108,7 +110,10 @@ public class CommonMethods extends Driver {
 	// ================================
 	// 🔹 Page Object Models
 	// ================================
-
+	public static HomePagePOM hmpage_pom = new HomePagePOM();
+	
+	
+	
 	// ================================
 	// 🔹 Different Wait Methods
 	// ================================
