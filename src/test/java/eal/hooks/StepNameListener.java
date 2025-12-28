@@ -16,7 +16,7 @@ Its main purpose is to:
 Improve test execution visibility
 Clearly show which step is currently running
 Make logs readable and traceable during debugging
-
+ 
 This listener logs the currently executing Cucumber step name, improving traceability and debugging during test execution.
 
  */

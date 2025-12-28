@@ -114,6 +114,10 @@ public class CommonMethods extends Driver {
 	// ================================
 
 	// Wait for Javascript or JQuery to load
+	/*
+	 * waits until the page is fully loaded 
+	 * and all background AJAX requests are completed before Selenium interacts
+	 */
 	public static void waitForPageAndAjaxToLoad() {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(JQUERY_LOAD_TIMEOUT_SECONDS));
@@ -136,6 +140,10 @@ public class CommonMethods extends Driver {
 	}
 
 	// newly implemented for faster response/ wait with locator
+	/* This method use for, Waits until the element exists, and need to pass a param as locator 
+	 * Also Logs a warning if element doesn’t appear in time
+	 * Checks if element is: Visible (isDisplayed()), Interactable (isEnabled())
+	 */
 	public WebElement waitForElement(By locator) {
 
 		WebElement elementLocator = null;
@@ -173,9 +181,15 @@ public class CommonMethods extends Driver {
 		// flash(elementLocator); // Assuming `flash` takes WebElement as parameter
 		logger.info("Wait for the element is completed, Element is visible on the screen");
 		return elementLocator;
-
+		// use thid method when use click() // sendKeys() //getText()
 	}
 
+	
+	/*
+	 * This method waits until an element is present in the DOM and becomes disabled
+	 * It is useful when:
+	 * A button/input becomes disabled after submit, A field is read-only after some action, UI state changes dynamically
+	 */
 	public WebElement waitForDisableElement(By locator) {
 
 		removeBorder(); // here we are calling removeBorder method . the method is in this same class
@@ -210,6 +224,13 @@ public class CommonMethods extends Driver {
 
 	}
 
+	/*
+	 * The waitForPageToLoadfor(int sec) method waits until the entire web page is fully loaded before continuing test execution.
+	 * Example of uses:
+	 * driver.get("https://example.com");
+	 * waitForPageToLoadfor(10);
+	 * waitForElement(loginButton).click();
+	 */
 	public void waitForPageToLoadfor(int sec) {
 
 		logger.info("Wait for Web Page to load completely");
@@ -252,6 +273,7 @@ public class CommonMethods extends Driver {
 
 	}
 
+	//The waitForTableRows(By locator) method waits until all table row (<tr>) elements
 	public ArrayList<WebElement> waitForTableRows(By locator) {
 
 		logger.info("Waiting for multiple <tr> elements to be visible and enabled on the screen");
@@ -720,6 +742,8 @@ public class CommonMethods extends Driver {
 		}
 	}
 
+	//The scrollIntoView(WebDriver driver, WebElement element) method scrolls the web page 
+	//until the specified element becomes visible within the browser viewport.
 	public static void scrollIntoView(WebDriver driver, WebElement element) {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -802,6 +826,7 @@ public class CommonMethods extends Driver {
 
 	}
 
+	
 	public static void generateAlert(WebDriver driver, String message) {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -1048,8 +1073,8 @@ public class CommonMethods extends Driver {
 		return status;
 
 	}
+	
 	// Check file is downloaded in the given path
-
 	public boolean isFileDownloaded(String filePath, String fileName) throws InterruptedException {
 
 		boolean isFilePresent = false;
@@ -1067,7 +1092,7 @@ public class CommonMethods extends Driver {
 		return isFilePresent;
 
 	}
-
+	// check the file is uploaded
 	public boolean isFileUpload(String filePath, String fileName) throws InterruptedException {
 
 		boolean isFilePresent = false;
@@ -1138,6 +1163,8 @@ public class CommonMethods extends Driver {
 
 	}
 
+	//Select the 3rd option from a custom (non-<select>) dropdown
+	//selectFromDropdownByIndex(countryDropdown,countryOptions, 2);
 	public void selectFromDropdownByIndex(WebElement el, List<WebElement> optionList, int index) throws Exception {
 
 		try {
@@ -1296,6 +1323,7 @@ public class CommonMethods extends Driver {
 
 	}
 
+	//The rendomFromDD(String webelement) method selects and clicks one random option from a dropdown (or list of elements) using an XPath locator.
 	public static void rendomFromDD(String webelement) {
 
 		List<WebElement> options = Driver.getDriver().findElements(By.xpath(webelement));
@@ -1411,6 +1439,8 @@ public class CommonMethods extends Driver {
 	 * 
 	 * @return
 	 * 
+	 * String result = leftPadStringWithLeadingZeroes(5, "23");
+	 * "00023"
 	 */
 	public String leftPadStringWithLeadingZeroes(Integer n, String str) {
 

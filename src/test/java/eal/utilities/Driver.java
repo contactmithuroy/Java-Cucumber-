@@ -39,28 +39,56 @@ public class Driver {
 			EdgeOptions edgeOptions = new EdgeOptions();
 			ChromeOptions chromeOptions = new ChromeOptions();
 
+			/*
+			 * Useful When to Use
+				This setup is useful when:
+				Automating file downloads				
+				Running tests in CI/CD pipelines				
+				Avoiding browser popups and permission dialogs				
+				Running tests in parallel				
+				Ensuring each test run has a clean browser profile
+			 */
 			HashMap<String, Object> edgePrefs = new HashMap<>();
 			HashMap<String, Object> chromePrefs = new HashMap<>();
 			switch (browser) {
 			case "edge":
 				// Set up preferences
 				edgePrefs.put("download.default_directory", downloadFolderPath);
+				//Downloads go to a known folder (no OS prompt)
+				
 				edgePrefs.put("profile.default_content_settings.popups", 0);
+				//Disables popups
+				
 				edgePrefs.put("profile.default_zoom_level", 0);
+				//Prevents zoom inconsistencies
+				
 				edgePrefs.put("profile.default_content_setting_values.automatic_downloads", 1);
+				//Allows multiple downloads automatically
+				
 				edgePrefs.put("download.prompt_for_download", false);
+				//Disables “Save As” dialog
+				
 				edgeOptions.setExperimentalOption("prefs", edgePrefs);
+				//Applies preferences to Edge browser
+				
 
 				// Arguments:
 				edgeOptions.addArguments("--inprivate"); // Enable headless mode
-				edgeOptions.addArguments("disable-gpu"); // Disable GPU acceleration
+				//Launches Edge in private mode (no cache, cookies)
+				
+				edgeOptions.addArguments("disable-gpu"); 
+				// Disable GPU acceleration
+				
 				edgeOptions.addArguments("--disable-notifications");
+				//Blocks notification popups
 				edgeOptions.addArguments("--no-download-notification");
+				//Block download notification 
 				edgeOptions.addArguments("--window-size=1920,1080");
 				edgeOptions.addArguments("--force-device-scale-factor=1");
 				edgeOptions.addArguments("--high-dpi-support=1");
+				//Prevents scaling issues on high-DPI screens
 
-				// Generate a unique user data directory
+				// Generate a unique user data directory for, Cookie leakage, Session reuse,Parallel execution conflicts
 				logger.info("creating temp directory in -Edge");
 				String tempUserDataDir = System.getProperty("java.io.tmpdir") + "/edge-profile-" + UUID.randomUUID();
 				edgeOptions.addArguments("--user-data-dir=" + tempUserDataDir);
@@ -82,7 +110,6 @@ public class Driver {
 				chromePrefs.put("download.prompt_for_download", false);
 
 				chromeOptions.setExperimentalOption("prefs", chromePrefs);
-
 				// Arguments
 				chromeOptions.addArguments("--incognito"); // Chrome equivalent of Edge's inprivate
 				chromeOptions.addArguments("--disable-gpu"); // Disable GPU acceleration

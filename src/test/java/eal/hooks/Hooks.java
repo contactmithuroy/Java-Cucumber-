@@ -24,6 +24,14 @@ import eal.utilities.ScreenshotUtil;
 import eal.utilities.SftAssert;
 import io.cucumber.java.*;
 
+
+
+/*
+ * The Hooks class is a central lifecycle controller for  Cucumber automation framework.
+It manages test setup, execution flow, reporting, screenshots, cleanup, and conditional resources 
+before and after scenarios, steps, and the entire test suite.
+
+ */
 public class Hooks extends CommonMethods {
 
     String fileName;
