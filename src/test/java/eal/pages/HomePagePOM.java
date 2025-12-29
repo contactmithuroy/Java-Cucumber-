@@ -19,6 +19,11 @@ public class HomePagePOM extends CommonMethods {
 	 
 	 By user_id_text = By.xpath("//td[contains(text(),'UserID')]");
 	 By password_text = By.xpath("//td[contains(text(),'Password')]");
+	 By loginBtn = By.xpath("//input[@type='submit' and @name='btnLogin']");
+	 By seleniumBtn = By.xpath("//a[contains(normalize-space(text()),'Selenium') and @class='dropdown-toggle']");
+	 By tableDemoBtn = By.xpath("//a[contains(text(),'Table Demo')]");
+	 //By tableDemoBtn = By.xpath("//ul[@class='dropdown-menu']//a[text()='Table Demo']");
+	 By dropDownManu = By.xpath("//ul[@class='dropdown-menu']");	 
 	 
 	 
 	 
@@ -68,4 +73,68 @@ public class HomePagePOM extends CommonMethods {
 			return false;
 		}
 	 }
+	 
+	 public boolean verify_loginBtn_isVisible() {
+		 try {
+			 boolean presenece = isElementPresent(loginBtn);
+			 if(presenece) {
+					return true;
+				}else {
+					return false;
+				}
+		} catch (Exception e) {
+			logger.error(LogColor.RED+e + LogColor.RESET);
+			return false;
+		}
+	 }
+	 
+	 public boolean verify_seleniumBtn_isVisible() {
+		 try {
+			 boolean presenece = isElementPresent(seleniumBtn);
+			 if(presenece) {
+					return true;
+				}else {
+					return false;
+				}
+		} catch (Exception e) {
+			logger.error(LogColor.RED+e + LogColor.RESET);
+			return false;
+		}
+	 }
+	 
+	 public boolean click_on_seleniumBtn() {
+		    try {
+		        WebElement element = waitForElement(seleniumBtn);
+		        waitForClickablility(element);
+		        clickAndDraw(element);
+		        boolean presenece = isElementPresent(dropDownManu);
+				 if(presenece) {
+						return true;
+					}else {
+						logger.error(LogColor.RED+"Dropdown List is not Expand"
+								+ "" + LogColor.RESET);
+						return false;
+					}
+		    } catch (Exception e) {
+		        logger.error("Failed to click on Selenium button: " + e.getMessage());
+		        return false; 
+		    }
+		}
+	 
+	 public boolean verify_table_demo_isVisible() {
+		 try {
+			 boolean presenece = isElementPresent(tableDemoBtn);
+			 if(presenece) {
+					return true;
+				}else {
+					return false;
+				}
+		} catch (Exception e) {
+			logger.error(LogColor.RED+e + LogColor.RESET);
+			return false;
+		}
+	 }
+	 
+	 
+	 
 }

@@ -30,7 +30,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true
 )
 
-public class ealrunner extends CommonMethods {
+public class ealrunner {
 	public static final Logger logger = LogManager.getLogger(ealrunner.class);
 
 	@BeforeClass

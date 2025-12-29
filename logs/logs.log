@@ -1103,3 +1103,361 @@ Session ID: 3a90f4785f4dd6dd9ba0dc51fc7c3e71
 00:08:49.232 INFO  [Hooks :132] Closing the Driver
 00:08:50.882 INFO  [Hooks :139] Driver Closed
 00:08:56.348 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+00:22:57.316 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+00:22:57.809 INFO  [Driver :123] creating temp directory in -Chrome
+00:23:02.282 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+00:23:02.282 INFO  [Driver :212] [31;1mBrowser Setup[0m
+00:23:02.426 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+00:23:02.427 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+00:23:05.030 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+00:23:05.629 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:23:05.629 INFO  [Hooks :68] [32;1m================================================================[0m
+00:23:05.630 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+00:23:05.631 INFO  [Hooks :71] [32;1m================================================================[0m
+00:23:05.676 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:23:05.683 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:23:05.683 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:23:05.684 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:23:05.685 INFO  [CommonMethods :12] Verify Title
+00:23:05.686 INFO  [CommonMethods :28] Getting the Actual Title
+00:23:05.695 INFO  [CommonMethods :30] Got the title
+00:23:05.696 INFO  [CommonMethods :14] Performing Assertion
+00:23:05.697 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:23:05.704 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:23:05.710 INFO  [CommonMethods :1023] Capturing Screenshot
+00:23:05.840 INFO  [CommonMethods :1028] Screenshot Attached
+00:23:05.841 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:23:05.844 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:23:05.844 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+00:23:05.845 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:23:05.845 INFO  [CommonMethods :19] Verifying presense of User ID
+00:23:06.729 INFO  [CommonMethods :508] isElelementPresent=True
+00:23:06.735 INFO  [CommonMethods :21] Performing Assertion
+00:23:06.736 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- User ID Text is Visible in the screen[0m
+00:23:06.738 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:23:06.738 INFO  [CommonMethods :1023] Capturing Screenshot
+00:23:06.868 INFO  [CommonMethods :1028] Screenshot Attached
+00:23:06.871 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:23:06.871 INFO  [Hooks :107] [32;1m================================================================[0m
+00:23:06.876 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+00:23:06.877 INFO  [Hooks :109] [32;1m================================================================[0m
+00:23:06.894 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:23:06.895 INFO  [Hooks :68] [32;1m================================================================[0m
+00:23:06.895 INFO  [Hooks :70] [32;1mScenario Title: Verify Password input is available[0m
+00:23:06.896 INFO  [Hooks :71] [32;1m================================================================[0m
+00:23:06.926 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:23:06.928 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:23:06.929 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:23:06.930 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:23:06.930 INFO  [CommonMethods :12] Verify Title
+00:23:06.931 INFO  [CommonMethods :28] Getting the Actual Title
+00:23:06.942 INFO  [CommonMethods :30] Got the title
+00:23:06.942 INFO  [CommonMethods :14] Performing Assertion
+00:23:06.943 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:23:06.945 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:23:06.945 INFO  [CommonMethods :1023] Capturing Screenshot
+00:23:07.046 INFO  [CommonMethods :1028] Screenshot Attached
+00:23:07.048 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:23:07.050 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:23:07.051 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+00:23:07.051 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:23:07.052 INFO  [CommonMethods :27] Verifying presense of Password field
+00:23:07.965 INFO  [CommonMethods :508] isElelementPresent=True
+00:23:07.976 INFO  [CommonMethods :29] Performing Assertion
+00:23:07.976 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Password Text is Visible in the screen[0m
+00:23:07.978 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:23:07.979 INFO  [CommonMethods :1023] Capturing Screenshot
+00:23:08.126 INFO  [CommonMethods :1028] Screenshot Attached
+00:23:08.128 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:23:08.128 INFO  [Hooks :107] [32;1m================================================================[0m
+00:23:08.128 INFO  [Hooks :108] [38;5;54mVerify Password input is available :- Status - PASSED[0m
+00:23:08.129 INFO  [Hooks :109] [32;1m================================================================[0m
+00:23:08.135 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+00:23:08.136 INFO  [Hooks :129] Deleting cookies
+00:23:08.157 INFO  [Hooks :132] Closing the Driver
+00:23:09.273 INFO  [Hooks :139] Driver Closed
+00:23:16.987 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+00:33:50.072 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+00:33:50.489 INFO  [Driver :123] creating temp directory in -Chrome
+00:33:53.250 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+00:33:53.251 INFO  [Driver :212] [31;1mBrowser Setup[0m
+00:33:53.395 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+00:33:53.398 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+00:33:55.396 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+00:33:56.102 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:33:56.103 INFO  [Hooks :68] [32;1m================================================================[0m
+00:33:56.104 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+00:33:56.105 INFO  [Hooks :71] [32;1m================================================================[0m
+00:33:56.146 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:56.157 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:56.158 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:33:56.158 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:56.160 INFO  [CommonMethods :12] Verify Title
+00:33:56.161 INFO  [CommonMethods :28] Getting the Actual Title
+00:33:56.172 INFO  [CommonMethods :30] Got the title
+00:33:56.173 INFO  [CommonMethods :14] Performing Assertion
+00:33:56.174 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:33:56.183 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:56.191 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:56.335 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:56.338 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:56.342 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:56.342 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+00:33:56.343 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:56.344 INFO  [CommonMethods :19] Verifying presense of User ID
+00:33:57.212 INFO  [CommonMethods :508] isElelementPresent=True
+00:33:57.232 INFO  [CommonMethods :21] Performing Assertion
+00:33:57.232 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- User ID Text is Visible in the screen[0m
+00:33:57.234 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:57.235 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:57.338 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:57.341 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:33:57.341 INFO  [Hooks :107] [32;1m================================================================[0m
+00:33:57.345 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+00:33:57.346 INFO  [Hooks :109] [32;1m================================================================[0m
+00:33:57.360 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:33:57.361 INFO  [Hooks :68] [32;1m================================================================[0m
+00:33:57.361 INFO  [Hooks :70] [32;1mScenario Title: Verify Password input is available[0m
+00:33:57.361 INFO  [Hooks :71] [32;1m================================================================[0m
+00:33:57.389 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:57.392 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:57.393 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:33:57.393 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:57.394 INFO  [CommonMethods :12] Verify Title
+00:33:57.394 INFO  [CommonMethods :28] Getting the Actual Title
+00:33:57.404 INFO  [CommonMethods :30] Got the title
+00:33:57.404 INFO  [CommonMethods :14] Performing Assertion
+00:33:57.405 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:33:57.407 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:57.407 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:57.514 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:57.516 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:57.518 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:57.518 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+00:33:57.518 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:57.519 INFO  [CommonMethods :27] Verifying presense of Password field
+00:33:58.365 INFO  [CommonMethods :508] isElelementPresent=True
+00:33:58.370 INFO  [CommonMethods :29] Performing Assertion
+00:33:58.371 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Password Text is Visible in the screen[0m
+00:33:58.374 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:58.375 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:58.485 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:58.488 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:33:58.488 INFO  [Hooks :107] [32;1m================================================================[0m
+00:33:58.488 INFO  [Hooks :108] [38;5;54mVerify Password input is available :- Status - PASSED[0m
+00:33:58.489 INFO  [Hooks :109] [32;1m================================================================[0m
+00:33:58.684 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:33:58.684 INFO  [Hooks :68] [32;1m================================================================[0m
+00:33:58.685 INFO  [Hooks :70] [32;1mScenario Title: Verify LOGIN is available[0m
+00:33:58.686 INFO  [Hooks :71] [32;1m================================================================[0m
+00:33:58.715 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:58.717 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:58.717 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:33:58.718 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:58.718 INFO  [CommonMethods :12] Verify Title
+00:33:58.719 INFO  [CommonMethods :28] Getting the Actual Title
+00:33:58.729 INFO  [CommonMethods :30] Got the title
+00:33:58.729 INFO  [CommonMethods :14] Performing Assertion
+00:33:58.730 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:33:58.732 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:58.732 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:58.876 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:58.878 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:58.880 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:58.881 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify LOGIN is visible
+00:33:58.881 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:58.891 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:58.891 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:59.037 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:59.039 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:33:59.040 INFO  [Hooks :107] [32;1m================================================================[0m
+00:33:59.040 INFO  [Hooks :108] [38;5;54mVerify LOGIN is available :- Status - UNDEFINED[0m
+00:33:59.041 INFO  [Hooks :109] [32;1m================================================================[0m
+00:33:59.080 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:33:59.080 INFO  [Hooks :68] [32;1m================================================================[0m
+00:33:59.081 INFO  [Hooks :70] [32;1mScenario Title: Verify Table Demo is available[0m
+00:33:59.081 INFO  [Hooks :71] [32;1m================================================================[0m
+00:33:59.105 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:59.106 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:59.107 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:33:59.107 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:59.108 INFO  [CommonMethods :12] Verify Title
+00:33:59.109 INFO  [CommonMethods :28] Getting the Actual Title
+00:33:59.119 INFO  [CommonMethods :30] Got the title
+00:33:59.120 INFO  [CommonMethods :14] Performing Assertion
+00:33:59.120 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:33:59.122 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:59.123 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:59.263 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:59.265 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:33:59.267 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:59.267 WARN  [StepNameListener :46] [38;5;208mExecuting step: Click on Selenium Drop down from the top
+00:33:59.268 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:59.270 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:33:59.270 INFO  [CommonMethods :1023] Capturing Screenshot
+00:33:59.404 INFO  [CommonMethods :1028] Screenshot Attached
+00:33:59.407 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:33:59.408 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Table Demo is available Under Selenium Drop down
+00:33:59.408 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:33:59.412 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:33:59.412 INFO  [Hooks :107] [32;1m================================================================[0m
+00:33:59.413 INFO  [Hooks :108] [38;5;54mVerify Table Demo is available :- Status - UNDEFINED[0m
+00:33:59.413 INFO  [Hooks :109] [32;1m================================================================[0m
+00:33:59.419 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+00:33:59.420 INFO  [Hooks :129] Deleting cookies
+00:33:59.441 INFO  [Hooks :132] Closing the Driver
+00:34:00.168 INFO  [Hooks :139] Driver Closed
+00:34:06.240 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+01:27:57.053 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+01:27:57.912 INFO  [Driver :123] creating temp directory in -Chrome
+01:28:05.038 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+01:28:05.038 INFO  [Driver :212] [31;1mBrowser Setup[0m
+01:28:05.206 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+01:28:05.209 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+01:28:07.438 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+01:28:08.709 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+01:28:08.710 INFO  [Hooks :68] [32;1m================================================================[0m
+01:28:08.710 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+01:28:08.712 INFO  [Hooks :71] [32;1m================================================================[0m
+01:28:08.799 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:08.841 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:08.844 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+01:28:08.845 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:08.850 INFO  [CommonMethods :12] Verify Title
+01:28:08.852 INFO  [CommonMethods :33] Getting the Actual Title
+01:28:08.878 INFO  [CommonMethods :35] Got the title
+01:28:08.881 INFO  [CommonMethods :14] Performing Assertion
+01:28:08.884 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+01:28:08.898 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:08.913 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:09.170 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:09.177 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:09.187 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:09.188 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+01:28:09.189 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:09.193 INFO  [CommonMethods :19] Verifying presense of User ID
+01:28:10.488 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:10.500 INFO  [CommonMethods :21] Performing Assertion
+01:28:10.501 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- User ID Text is Visible in the screen[0m
+01:28:10.508 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:10.509 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:10.700 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:10.704 INFO  [Hooks :106] [38;5;54m @after hook [0m
+01:28:10.705 INFO  [Hooks :107] [32;1m================================================================[0m
+01:28:10.714 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+01:28:10.718 INFO  [Hooks :109] [32;1m================================================================[0m
+01:28:10.759 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+01:28:10.760 INFO  [Hooks :68] [32;1m================================================================[0m
+01:28:10.760 INFO  [Hooks :70] [32;1mScenario Title: Verify Password input is available[0m
+01:28:10.761 INFO  [Hooks :71] [32;1m================================================================[0m
+01:28:10.803 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:10.806 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:10.808 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+01:28:10.809 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:10.810 INFO  [CommonMethods :12] Verify Title
+01:28:10.811 INFO  [CommonMethods :33] Getting the Actual Title
+01:28:10.828 INFO  [CommonMethods :35] Got the title
+01:28:10.830 INFO  [CommonMethods :14] Performing Assertion
+01:28:10.831 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+01:28:10.834 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:10.835 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:11.084 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:11.086 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:11.089 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:11.090 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+01:28:11.091 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:11.092 INFO  [CommonMethods :27] Verifying presense of Password field
+01:28:12.000 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:12.009 INFO  [CommonMethods :29] Performing Assertion
+01:28:12.010 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Password Text is Visible in the screen[0m
+01:28:12.014 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:12.015 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:12.183 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:12.193 INFO  [Hooks :106] [38;5;54m @after hook [0m
+01:28:12.193 INFO  [Hooks :107] [32;1m================================================================[0m
+01:28:12.194 INFO  [Hooks :108] [38;5;54mVerify Password input is available :- Status - PASSED[0m
+01:28:12.194 INFO  [Hooks :109] [32;1m================================================================[0m
+01:28:12.217 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+01:28:12.218 INFO  [Hooks :68] [32;1m================================================================[0m
+01:28:12.219 INFO  [Hooks :70] [32;1mScenario Title: Verify LOGIN is available[0m
+01:28:12.220 INFO  [Hooks :71] [32;1m================================================================[0m
+01:28:12.251 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:12.255 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:12.255 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+01:28:12.256 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:12.257 INFO  [CommonMethods :12] Verify Title
+01:28:12.257 INFO  [CommonMethods :33] Getting the Actual Title
+01:28:12.272 INFO  [CommonMethods :35] Got the title
+01:28:12.272 INFO  [CommonMethods :14] Performing Assertion
+01:28:12.273 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+01:28:12.276 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:12.277 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:12.453 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:12.455 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:12.457 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:12.457 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify LOGIN is visible
+01:28:12.458 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:12.459 INFO  [CommonMethods :35] Verifying presense of login button
+01:28:13.377 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:13.382 INFO  [CommonMethods :37] Performing Login Assertion
+01:28:13.383 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Login Button  is Visible in the screen[0m
+01:28:13.386 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:13.386 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:13.565 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:13.567 INFO  [Hooks :106] [38;5;54m @after hook [0m
+01:28:13.568 INFO  [Hooks :107] [32;1m================================================================[0m
+01:28:13.569 INFO  [Hooks :108] [38;5;54mVerify LOGIN is available :- Status - PASSED[0m
+01:28:13.569 INFO  [Hooks :109] [32;1m================================================================[0m
+01:28:13.583 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+01:28:13.583 INFO  [Hooks :68] [32;1m================================================================[0m
+01:28:13.584 INFO  [Hooks :70] [32;1mScenario Title: Verify Table Demo is available[0m
+01:28:13.584 INFO  [Hooks :71] [32;1m================================================================[0m
+01:28:13.604 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:13.606 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:13.606 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+01:28:13.606 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:13.608 INFO  [CommonMethods :12] Verify Title
+01:28:13.608 INFO  [CommonMethods :33] Getting the Actual Title
+01:28:13.618 INFO  [CommonMethods :35] Got the title
+01:28:13.619 INFO  [CommonMethods :14] Performing Assertion
+01:28:13.620 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+01:28:13.622 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:13.622 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:13.794 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:13.796 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:13.798 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:13.799 WARN  [StepNameListener :46] [38;5;208mExecuting step: Click on Selenium Drop down from the top
+01:28:13.799 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:13.800 INFO  [CommonMethods :43] Verifying Click Selenium Drop Down From the top
+01:28:14.672 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:14.676 INFO  [CommonMethods :45] Verifying Click on Selenium Drop Down 
+01:28:14.892 INFO  [CommonMethods :156] Checking visibility of the Element on browser screen
+01:28:15.330 INFO  [CommonMethods :187] Wait for the element is completed, Element is visible on the screen
+01:28:15.877 INFO  [CommonMethods :419] element is visible and Clickable
+01:28:16.601 INFO  [CommonMethods :419] element is visible and Clickable
+01:28:18.603 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:18.618 INFO  [CommonMethods :47] Performing Login Assertion
+01:28:18.619 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Click Selenium dropdown - List expanded[0m
+01:28:18.621 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:18.622 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:18.851 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:18.855 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+01:28:18.860 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+01:28:18.861 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Table Demo is available Under Selenium Drop down
+01:28:18.861 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+01:28:18.863 INFO  [CommonMethods :55] Verify Table Demo is available Under Selenium Drop down 
+01:28:20.177 INFO  [CommonMethods :508] isElelementPresent=True
+01:28:20.189 INFO  [CommonMethods :57] Performing Login Assertion
+01:28:20.190 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Table Demo is available in the DropDown[0m
+01:28:20.196 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+01:28:20.198 INFO  [CommonMethods :1023] Capturing Screenshot
+01:28:20.479 INFO  [CommonMethods :1028] Screenshot Attached
+01:28:20.481 INFO  [Hooks :106] [38;5;54m @after hook [0m
+01:28:20.482 INFO  [Hooks :107] [32;1m================================================================[0m
+01:28:20.482 INFO  [Hooks :108] [38;5;54mVerify Table Demo is available :- Status - PASSED[0m
+01:28:20.482 INFO  [Hooks :109] [32;1m================================================================[0m
+01:28:20.490 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+01:28:20.491 INFO  [Hooks :129] Deleting cookies
+01:28:20.522 INFO  [Hooks :132] Closing the Driver
+01:28:21.310 INFO  [Hooks :139] Driver Closed
+01:28:33.923 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m

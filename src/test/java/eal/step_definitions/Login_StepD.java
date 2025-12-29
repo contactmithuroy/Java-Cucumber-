@@ -30,4 +30,35 @@ public class Login_StepD extends CommonMethods {
 		  softAssert.softAssertTrue(passwordisVisible, "Password Text is Visible in the screen", "Password text is not visible in the screen");
 	  }
 	  
+	  @Then("Verify LOGIN is visible")
+	  public void verify_login_is_visible() {
+		  logger.info("Verifying presense of login button");
+		  boolean loginBtnisVisible = hmpage_pom.verify_loginBtn_isVisible();
+		  logger.info("Performing Login Assertion");
+		  softAssert.softAssertTrue(loginBtnisVisible, "Login Button  is Visible in the screen", "Login Button is not visible in the screen");
+	  }
+
+	  @Then("Click on Selenium Drop down from the top")
+	  public void click_on_selenium_drop_down_from_the_top() {
+		  logger.info("Verifying Click Selenium Drop Down From the top");
+		  boolean seleniumBtnisVisible = hmpage_pom.verify_seleniumBtn_isVisible();
+		  logger.info("Verifying Click on Selenium Drop Down ");
+		  boolean clickAndListExpended = hmpage_pom.click_on_seleniumBtn();
+		  logger.info("Performing Login Assertion");
+		  softAssert.softAssertTrue(clickAndListExpended, 
+				    "Click Selenium dropdown - List expanded", 
+				    "Not click on Selenium dropdown - List not expanded");
+	  }
+	  
+	  @Then("Verify Table Demo is available Under Selenium Drop down")
+	  public void verify_table_demo_is_available_under_selenium_drop_down() {
+		  logger.info("Verify Table Demo is available Under Selenium Drop down ");
+		  boolean tableDemoBtnisVisible = hmpage_pom.verify_table_demo_isVisible();
+		  logger.info("Performing Login Assertion");
+		  softAssert.softAssertTrue(tableDemoBtnisVisible, 
+				    "Table Demo is available in the DropDown", 
+				    "Table Demo is not available in the DropDown");
+	  }
+	  
+	  
 }
