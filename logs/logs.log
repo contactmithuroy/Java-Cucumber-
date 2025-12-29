@@ -828,3 +828,278 @@ Session ID: 3a90f4785f4dd6dd9ba0dc51fc7c3e71
 01:19:04.699 INFO  [Hooks :132] Closing the Driver
 01:19:04.951 INFO  [Hooks :139] Driver Closed
 01:19:09.357 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+22:09:42.917 INFO  [Driver :123] creating temp directory in -Chrome
+22:09:48.659 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+22:09:49.324 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+22:09:49.324 INFO  [Driver :212] [31;1mBrowser Setup[0m
+22:09:49.667 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+22:09:49.668 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+22:09:52.278 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+22:09:53.132 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+22:09:53.133 INFO  [Hooks :68] [32;1m================================================================[0m
+22:09:53.134 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+22:09:53.135 INFO  [Hooks :71] [32;1m================================================================[0m
+22:09:53.182 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+22:09:53.191 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+22:09:53.192 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+22:09:53.193 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+22:09:53.196 INFO  [CommonMethods :12] Verify Title
+22:09:53.196 INFO  [CommonMethods :18] Getting the Actual Title
+22:09:53.207 INFO  [CommonMethods :20] Got the title
+22:09:53.208 INFO  [CommonMethods :14] Performing Assertion
+22:09:53.209 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+22:09:53.220 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+22:09:53.247 INFO  [CommonMethods :1023] Capturing Screenshot
+22:09:53.471 INFO  [CommonMethods :1028] Screenshot Attached
+22:09:53.489 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+22:09:53.502 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+22:09:53.503 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+22:09:53.504 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+22:09:53.505 INFO  [CommonMethods :19] Verifying presense of User ID
+22:09:53.515 INFO  [CommonMethods :523] Checking visibility of the Element on browser screen
+22:10:23.548 INFO  [CommonMethods :21] Performing Assertion
+22:10:23.549 INFO  [SftAssert :90] [31;1mAssert Failed :------------------------ User Id text is not visible in the screen[0m
+22:10:23.694 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+22:10:23.694 INFO  [CommonMethods :1023] Capturing Screenshot
+22:10:23.795 INFO  [CommonMethods :1028] Screenshot Attached
+22:10:23.797 INFO  [Hooks :106] [38;5;54m @after hook [0m
+22:10:23.797 INFO  [Hooks :107] [32;1m================================================================[0m
+22:10:23.800 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+22:10:23.800 INFO  [Hooks :109] [32;1m================================================================[0m
+22:10:23.841 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+22:10:23.841 INFO  [Hooks :129] Deleting cookies
+22:10:23.869 INFO  [Hooks :132] Closing the Driver
+22:10:24.351 INFO  [Hooks :139] Driver Closed
+22:10:28.649 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+22:23:28.862 INFO  [Driver :123] creating temp directory in -Chrome
+22:23:31.209 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+22:23:32.126 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+22:23:32.127 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+22:23:32.128 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+22:23:32.138 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+22:23:32.138 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+22:23:32.139 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+22:23:35.023 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:10:29.715 INFO  [Driver :123] creating temp directory in -Chrome
+23:10:33.896 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:10:34.229 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+23:10:34.229 INFO  [Driver :212] [31;1mBrowser Setup[0m
+23:10:34.354 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+23:10:34.354 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+23:10:36.410 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+23:10:36.872 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+23:10:36.872 INFO  [Hooks :68] [32;1m================================================================[0m
+23:10:36.873 INFO  [Hooks :70] [32;1mScenario Title: Verify Password input is available[0m
+23:10:36.874 INFO  [Hooks :71] [32;1m================================================================[0m
+23:10:36.913 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+23:10:36.921 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:10:36.921 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:10:36.922 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:10:36.924 INFO  [CommonMethods :12] Verify Title
+23:10:36.924 INFO  [CommonMethods :28] Getting the Actual Title
+23:10:36.936 INFO  [CommonMethods :30] Got the title
+23:10:36.936 INFO  [CommonMethods :14] Performing Assertion
+23:10:36.937 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+23:10:36.947 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+23:10:36.969 INFO  [CommonMethods :1023] Capturing Screenshot
+23:10:37.085 INFO  [CommonMethods :1028] Screenshot Attached
+23:10:37.087 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+23:10:37.090 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:10:37.090 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+23:10:37.090 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:10:37.091 INFO  [CommonMethods :27] Verifying presense of Password field
+23:10:37.928 INFO  [CommonMethods :508] isElelementPresent=True
+23:10:37.934 INFO  [CommonMethods :29] Performing Assertion
+23:10:37.935 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Password Text is Visible in the screen[0m
+23:10:37.937 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+23:10:37.937 INFO  [CommonMethods :1023] Capturing Screenshot
+23:10:38.040 INFO  [CommonMethods :1028] Screenshot Attached
+23:10:38.046 INFO  [Hooks :106] [38;5;54m @after hook [0m
+23:10:38.047 INFO  [Hooks :107] [32;1m================================================================[0m
+23:10:38.053 INFO  [Hooks :108] [38;5;54mVerify Password input is available :- Status - PASSED[0m
+23:10:38.053 INFO  [Hooks :109] [32;1m================================================================[0m
+23:10:38.062 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+23:10:38.062 INFO  [Hooks :129] Deleting cookies
+23:10:38.187 INFO  [Hooks :132] Closing the Driver
+23:10:39.372 INFO  [Hooks :139] Driver Closed
+23:10:42.944 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:50:35.568 INFO  [Driver :123] creating temp directory in -Chrome
+23:50:38.128 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:50:39.047 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:50:39.047 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:50:39.048 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:50:39.057 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:50:39.057 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+23:50:39.058 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:50:39.082 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:50:39.083 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:50:39.083 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:50:39.088 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:50:39.089 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+23:50:39.090 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:50:42.842 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:51:29.063 INFO  [Driver :123] creating temp directory in -Chrome
+23:51:31.390 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:51:32.224 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:51:32.225 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:51:32.225 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:51:32.235 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:51:32.235 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+23:51:32.236 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:51:32.266 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:51:32.269 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:51:32.269 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:51:32.275 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:51:32.276 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+23:51:32.277 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:51:35.848 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:52:06.877 INFO  [Driver :123] creating temp directory in -Chrome
+23:52:09.872 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:52:11.037 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:52:11.038 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:52:11.039 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:52:11.052 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:52:11.053 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+23:52:11.054 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:52:11.094 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:52:11.096 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:52:11.097 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:52:11.103 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:52:11.104 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+23:52:11.105 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:52:16.238 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:53:55.612 INFO  [Driver :123] creating temp directory in -Chrome
+23:53:59.075 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:54:00.230 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:54:00.231 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:54:00.231 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:54:00.238 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:54:00.239 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+23:54:00.239 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:54:04.407 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+23:58:48.346 INFO  [Driver :123] creating temp directory in -Chrome
+23:58:50.850 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+23:58:51.822 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:58:51.823 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+23:58:51.823 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:58:51.834 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+23:58:51.835 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+23:58:51.835 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+23:58:55.147 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+00:05:52.411 INFO  [Driver :123] creating temp directory in -Chrome
+00:05:56.353 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+00:05:56.981 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+00:05:56.983 INFO  [Driver :212] [31;1mBrowser Setup[0m
+00:05:57.145 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+00:05:57.146 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+00:06:00.149 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+00:06:01.006 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:06:01.007 INFO  [Hooks :68] [32;1m================================================================[0m
+00:06:01.009 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+00:06:01.010 INFO  [Hooks :71] [32;1m================================================================[0m
+00:06:01.124 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:06:01.136 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:06:01.137 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:06:01.138 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:06:01.140 INFO  [CommonMethods :12] Verify Title
+00:06:01.141 INFO  [CommonMethods :28] Getting the Actual Title
+00:06:01.163 INFO  [CommonMethods :30] Got the title
+00:06:01.164 INFO  [CommonMethods :14] Performing Assertion
+00:06:01.165 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:06:01.193 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:06:01.203 INFO  [CommonMethods :1023] Capturing Screenshot
+00:06:01.404 INFO  [CommonMethods :1028] Screenshot Attached
+00:06:01.407 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:06:01.413 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:06:01.414 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+00:06:01.414 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:06:01.415 INFO  [CommonMethods :19] Verifying presense of User ID
+00:06:02.357 INFO  [CommonMethods :508] isElelementPresent=True
+00:06:02.364 INFO  [CommonMethods :21] Performing Assertion
+00:06:02.365 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- User ID Text is Visible in the screen[0m
+00:06:02.369 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:06:02.370 INFO  [CommonMethods :1023] Capturing Screenshot
+00:06:02.502 INFO  [CommonMethods :1028] Screenshot Attached
+00:06:02.506 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:06:02.506 INFO  [Hooks :107] [32;1m================================================================[0m
+00:06:02.512 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+00:06:02.513 INFO  [Hooks :109] [32;1m================================================================[0m
+00:06:02.527 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+00:06:02.527 INFO  [Hooks :129] Deleting cookies
+00:06:02.549 INFO  [Hooks :132] Closing the Driver
+00:06:03.912 INFO  [Hooks :139] Driver Closed
+00:06:12.955 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m
+00:08:39.171 INFO  [Driver :123] creating temp directory in -Chrome
+00:08:42.730 INFO  [ealrunner :38] [38;5;135m@BeforeClass-EALRunner Running one time[0m
+00:08:43.280 INFO  [Hooks :54] [38;5;54m @Before All Hooks [0m
+00:08:43.281 INFO  [Driver :212] [31;1mBrowser Setup[0m
+00:08:43.483 INFO  [ConfigurationReader :23] [38;5;201m****************** Current Profile: null******************[0m
+00:08:43.485 INFO  [ConfigurationReader :30] Current configFile =Configuration.properties
+00:08:45.759 INFO  [Driver :218] URL Lunched:https://demo.guru99.com/V3/index.php
+00:08:46.415 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:08:46.416 INFO  [Hooks :68] [32;1m================================================================[0m
+00:08:46.417 INFO  [Hooks :70] [32;1mScenario Title: Verify user landed on Homepage and UserID is available[0m
+00:08:46.417 INFO  [Hooks :71] [32;1m================================================================[0m
+00:08:46.478 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:08:46.491 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:08:46.493 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:08:46.493 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:08:46.513 INFO  [CommonMethods :12] Verify Title
+00:08:46.514 INFO  [CommonMethods :28] Getting the Actual Title
+00:08:46.526 INFO  [CommonMethods :30] Got the title
+00:08:46.527 INFO  [CommonMethods :14] Performing Assertion
+00:08:46.528 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:08:46.537 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:08:46.545 INFO  [CommonMethods :1023] Capturing Screenshot
+00:08:46.732 INFO  [CommonMethods :1028] Screenshot Attached
+00:08:46.735 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:08:46.742 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:08:46.744 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify UserID is Visible
+00:08:46.745 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:08:46.749 INFO  [CommonMethods :19] Verifying presense of User ID
+00:08:47.738 INFO  [CommonMethods :508] isElelementPresent=True
+00:08:47.745 INFO  [CommonMethods :21] Performing Assertion
+00:08:47.746 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- User ID Text is Visible in the screen[0m
+00:08:47.750 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:08:47.750 INFO  [CommonMethods :1023] Capturing Screenshot
+00:08:47.909 INFO  [CommonMethods :1028] Screenshot Attached
+00:08:47.912 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:08:47.913 INFO  [Hooks :107] [32;1m================================================================[0m
+00:08:47.918 INFO  [Hooks :108] [38;5;54mVerify user landed on Homepage and UserID is available :- Status - PASSED[0m
+00:08:47.919 INFO  [Hooks :109] [32;1m================================================================[0m
+00:08:47.984 INFO  [Hooks :66] [38;5;54m @Before hook- Runs before every tcs [0m
+00:08:47.984 INFO  [Hooks :68] [32;1m================================================================[0m
+00:08:47.985 INFO  [Hooks :70] [32;1mScenario Title: Verify Password input is available[0m
+00:08:47.986 INFO  [Hooks :71] [32;1m================================================================[0m
+00:08:48.016 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:08:48.018 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:08:48.018 WARN  [StepNameListener :46] [38;5;208mExecuting step: Validate User landed on homepage
+00:08:48.019 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:08:48.019 INFO  [CommonMethods :12] Verify Title
+00:08:48.020 INFO  [CommonMethods :28] Getting the Actual Title
+00:08:48.027 INFO  [CommonMethods :30] Got the title
+00:08:48.028 INFO  [CommonMethods :14] Performing Assertion
+00:08:48.028 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Title Matched Successfully[0m
+00:08:48.030 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:08:48.031 INFO  [CommonMethods :1023] Capturing Screenshot
+00:08:48.147 INFO  [CommonMethods :1028] Screenshot Attached
+00:08:48.149 INFO  [Hooks :94] [38;5;54m @Before Step Hooks [0m
+00:08:48.151 INFO  [StepNameListener :45] [38;5;208m================================================================[0m
+00:08:48.151 WARN  [StepNameListener :46] [38;5;208mExecuting step: Verify Password Input is Visible
+00:08:48.152 INFO  [StepNameListener :47] [38;5;208m================================================================[0m
+00:08:48.153 INFO  [CommonMethods :27] Verifying presense of Password field
+00:08:48.996 INFO  [CommonMethods :508] isElelementPresent=True
+00:08:49.022 INFO  [CommonMethods :29] Performing Assertion
+00:08:49.022 INFO  [SftAssert :78] [34;1mAssert Passed :---------------------- Password Text is Visible in the screen[0m
+00:08:49.026 INFO  [Hooks :99] [38;5;54m  @after step hook [0m
+00:08:49.027 INFO  [CommonMethods :1023] Capturing Screenshot
+00:08:49.193 INFO  [CommonMethods :1028] Screenshot Attached
+00:08:49.195 INFO  [Hooks :106] [38;5;54m @after hook [0m
+00:08:49.195 INFO  [Hooks :107] [32;1m================================================================[0m
+00:08:49.195 INFO  [Hooks :108] [38;5;54mVerify Password input is available :- Status - PASSED[0m
+00:08:49.196 INFO  [Hooks :109] [32;1m================================================================[0m
+00:08:49.202 INFO  [Hooks :127] [38;5;54m @AfterAll Hooks [0m
+00:08:49.202 INFO  [Hooks :129] Deleting cookies
+00:08:49.232 INFO  [Hooks :132] Closing the Driver
+00:08:50.882 INFO  [Hooks :139] Driver Closed
+00:08:56.348 INFO  [ealrunner :43] [38;5;135m@AfterClass-EALRunner Running one time[0m

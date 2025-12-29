@@ -21,4 +21,13 @@ public class Login_StepD extends CommonMethods {
 		  logger.info("Performing Assertion");
 		  softAssert.softAssertTrue(useridisVisible, "User ID Text is Visible in the screen", "User Id text is not visible in the screen");
 	  }
+	  
+	  @Then("Verify Password Input is Visible")
+	  public void verify_password_input_is_visible() {
+		  logger.info("Verifying presense of Password field");
+		  boolean passwordisVisible = hmpage_pom.verify_password_isVisible();
+		  logger.info("Performing Assertion");
+		  softAssert.softAssertTrue(passwordisVisible, "Password Text is Visible in the screen", "Password text is not visible in the screen");
+	  }
+	  
 }
