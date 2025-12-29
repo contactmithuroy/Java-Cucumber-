@@ -116,7 +116,7 @@ public class HomePagePOM extends CommonMethods {
 						return false;
 					}
 		    } catch (Exception e) {
-		        logger.error("Failed to click on Selenium button: " + e.getMessage());
+		        logger.error(LogColor.RED+ "Failed to click on Selenium button: " + e.getMessage()+ LogColor.RESET);
 		        return false; 
 		    }
 		}
