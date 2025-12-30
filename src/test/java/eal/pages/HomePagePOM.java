@@ -24,7 +24,9 @@ public class HomePagePOM extends CommonMethods {
 	By tableDemoBtn = By.xpath("//a[contains(text(),'Table Demo')]");
 	By dropDownManu = By.xpath("//ul[@class='dropdown-menu']");
 
+	// Dynamic xpath that can use for "UserID" and "Password"
 	String homepage_uiTextContained_elements = "//td[contains(text(),'%s')]";
+	String homePage_fields = "//td[contains(text(),'%s')]/following-sibling::td/input";
 
 	public boolean verify_homepage_title() {
 		try {
@@ -46,8 +48,10 @@ public class HomePagePOM extends CommonMethods {
 
 	public boolean verify_home_page_elements(String elementsText) {
 		try {
+			// Convert into actual xpath
 			String formattedXpathUiElement = String.format(homepage_uiTextContained_elements, elementsText);
 			logger.info(formattedXpathUiElement);
+			// Use actual xpath is present or not using Common method Class
 			boolean presenece = isElementPresent(By.xpath(formattedXpathUiElement));
 
 			if (presenece) {
@@ -60,7 +64,6 @@ public class HomePagePOM extends CommonMethods {
 			return false;
 		}
 	}
-
 
 	public boolean verify_loginBtn_isVisible() {
 		try {
@@ -120,6 +123,31 @@ public class HomePagePOM extends CommonMethods {
 			logger.error(LogColor.RED + e + LogColor.RESET);
 			return false;
 		}
+	}
+
+	public String passFieldValue(String fieldValue, String fieldName) {
+		try {
+			String formattedFields = String.format(homePage_fields, fieldName);
+			logger.info(formattedFields);
+			WebElement field = driver.findElement(By.xpath(formattedFields));
+
+			logger.info("Clicking on Fields");
+			clickAndDraw(field);
+
+			logger.info("Passing value: " + fieldValue);
+			field.sendKeys(fieldValue);
+			
+			logger.info("Get the field value to make sure it is filled up properly");
+			String actualValue = field.getAttribute("value");
+			logger.info("After filled the field value is "+actualValue);
+			
+			return actualValue;
+
+		}  catch (Exception e) {
+			logger.error(LogColor.RED + e + LogColor.RESET);
+			return "Null";
+		}
+
 	}
 
 }

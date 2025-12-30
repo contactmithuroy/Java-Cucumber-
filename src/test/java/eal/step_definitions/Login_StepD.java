@@ -47,4 +47,21 @@ public class Login_StepD extends CommonMethods {
 				"Table Demo is not available in the DropDown");
 	}
 
+	@Given("Pass {string} on {string} Field")
+	public void pass_on_field(String fieldValue, String fieldName) {
+		
+		String actualValueOnInputBox = hmpage_pom.passFieldValue(fieldValue, fieldName);
+		softAssert.softAssertEquals(actualValueOnInputBox, fieldValue, "Field is filled Up");
+	}
+
+	@Then("Click on {string} button")
+	public void click_on_button(String string) {
+
+	}
+
+	@Then("Click on {string} button from the alert")
+	public void click_on_button_from_the_alert(String string) {
+
+	}
+
 }

@@ -21,5 +21,12 @@ Scenario: Verify Table Demo is available
 	Then Click on Selenium Drop down from the top
 	Then Verify Table Demo is available Under Selenium Drop down
 
+@TC_005
+Scenario:Verify logging in with invalid credentials in Login Homapage(both invalid)
+	Given Pass "UserID" on "UserID" Field
+	Then Pass "Password" on "Password" Field
+	Then Click on "Login" button
+	Then Click on "OK" button from the alert
+
 
 				
