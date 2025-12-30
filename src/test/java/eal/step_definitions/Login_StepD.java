@@ -21,14 +21,14 @@ public class Login_StepD extends CommonMethods {
 		  
 		  switch(string_value_form_feature) {
 		  	case "UserID":
-		  		 logger.info("Verifying presense of User ID");
-				  boolean useridisVisible = hmpage_pom.verify_userid_isVisible();
+		  		 logger.info("Verifying presense of"+string_value_form_feature+"text");
+				  boolean useridisVisible = hmpage_pom.verify_home_page_elements(string_value_form_feature);
 				  validationStatus = useridisVisible;
 				  break;
 		  		
 		  	case "Password":
-		  		 logger.info("Verifying presense of Password field");
-				  boolean passwordisVisible = hmpage_pom.verify_password_isVisible();
+		  		 logger.info("Verifying presense of "+string_value_form_feature+"text");
+				  boolean passwordisVisible = hmpage_pom. hmpage_pom.verify_home_page_elements(string_value_form_feature);
 				  validationStatus = passwordisVisible;
 		  		break;
 		  	
@@ -45,8 +45,8 @@ public class Login_StepD extends CommonMethods {
 		  }
 		  logger.info("Performing Assertion");
 		  softAssert.softAssertTrue(validationStatus, 
-				  string_value_form_feature + "Text is Visible in the screen", 
-				  string_value_form_feature +"text is not visible in the screen");
+				  string_value_form_feature + " Text is Visible in the screen", 
+				  string_value_form_feature +" text is not visible in the screen");
 	  }
 
 	@Then("Click on Selenium Drop down from the top")
