@@ -9,20 +9,17 @@ import eal.utilities.LogColor;
 
 public class HomePagePOM extends CommonMethods {
 	 private static final Logger logger = LogManager.getLogger(CommonMethods.class);
-	 
-	 //@FindBy(xpath ="//td[contains(text(),'UserID')]")
-	 //@FindBy(xpath ="td:contains('UserID')")
-	 	//public WebElement user_id_text_By;
-	
-	 //@FindBy(xpath = "//td[contains(text(),'Password')]")
-	 	//public WebElement password_text_By;
-	 
+	 /*
+	 @FindBy(xpath ="//td[contains(text(),'UserID')]")
+	 	public WebElement user_id_text_By;
+	 @FindBy(xpath = "//td[contains(text(),'Password')]")
+	 	public WebElement password_text_By;
+	 */
 	 By user_id_text = By.xpath("//td[contains(text(),'UserID')]");
 	 By password_text = By.xpath("//td[contains(text(),'Password')]");
 	 By loginBtn = By.xpath("//input[@type='submit' and @name='btnLogin']");
 	 By seleniumBtn = By.xpath("//a[contains(normalize-space(text()),'Selenium') and @class='dropdown-toggle']");
 	 By tableDemoBtn = By.xpath("//a[contains(text(),'Table Demo')]");
-	 //By tableDemoBtn = By.xpath("//ul[@class='dropdown-menu']//a[text()='Table Demo']");
 	 By dropDownManu = By.xpath("//ul[@class='dropdown-menu']");	 
 	 
 	 
