@@ -4,22 +4,23 @@ import org.apache.logging.log4j.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import eal.utilities.CommonMethods;
 import eal.utilities.LogColor;
 
 public class HomePagePOM extends CommonMethods {
 	private static final Logger logger = LogManager.getLogger(CommonMethods.class);
-	/*
-	 * @FindBy(xpath ="//td[contains(text(),'UserID')]") public WebElement
-	 * user_id_text_By;
-	 * 
-	 * @FindBy(xpath = "//td[contains(text(),'Password')]") public WebElement
-	 * password_text_By;
-	 */
+	//Call page factory for webelement
+	public HomePagePOM() {
+		PageFactory.initElements(driver, this);
+	}
+
 	By user_id_text = By.xpath("//td[contains(text(),'UserID')]");
 	By password_text = By.xpath("//td[contains(text(),'Password')]");
-	By loginBtn = By.xpath("//input[@type='submit' and @name='btnLogin']");
+	@FindBy(xpath = "//input[@type='submit' and @name='btnLogin']")
+		WebElement loginBtn;
+	By loginText = By.xpath("//input[@type='submit' and @name='btnLogin']");
 	By seleniumBtn = By.xpath("//a[contains(normalize-space(text()),'Selenium') and @class='dropdown-toggle']");
 	By tableDemoBtn = By.xpath("//a[contains(text(),'Table Demo')]");
 	By dropDownManu = By.xpath("//ul[@class='dropdown-menu']");
@@ -65,19 +66,19 @@ public class HomePagePOM extends CommonMethods {
 		}
 	}
 
-	public boolean verify_loginBtn_isVisible() {
-		try {
-			boolean presenece = isElementPresent(loginBtn);
-			if (presenece) {
-				return true;
-			} else {
-				return false;
-			}
+	 public boolean verify_LOGIN_is_visible() {
+		 try {
+			 boolean presenece = isElementPresent(loginText);
+			 if(presenece) {
+					return true;
+				}else {
+					return false;
+				}
 		} catch (Exception e) {
-			logger.error(LogColor.RED + e + LogColor.RESET);
+			logger.error(LogColor.RED+e + LogColor.RESET);
 			return false;
 		}
-	}
+	 }
 
 	public boolean verify_seleniumBtn_isVisible() {
 		try {
@@ -135,19 +136,33 @@ public class HomePagePOM extends CommonMethods {
 			clickAndDraw(field);
 
 			logger.info("Passing value: " + fieldValue);
-			field.sendKeys(fieldValue);
-			
+			safeSendKeys(field, fieldValue); // use common method for safe send value
+
 			logger.info("Get the field value to make sure it is filled up properly");
 			String actualValue = field.getAttribute("value");
-			logger.info("After filled the field value is "+actualValue);
-			
+			logger.info("After filled the field value is " + actualValue);
+
 			return actualValue;
 
-		}  catch (Exception e) {
+		} catch (Exception e) {
 			logger.error(LogColor.RED + e + LogColor.RESET);
 			return "Null";
 		}
 
+	}
+	
+	public String clickOnLoginWith_invalid_credentials() {
+		try {
+			logger.info("Clicking on login button");
+			clickAndDraw(loginBtn);
+			waitForAlert();
+			String actualAlertText = getAlertText();
+			 logger.error("⚠️ Alert text captured: " + actualAlertText);
+			return actualAlertText;
+		} catch (Exception e) {
+			logger.error(LogColor.RED + e + LogColor.RESET);
+			return "Null";
+		}
 	}
 
 }

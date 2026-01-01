@@ -14,7 +14,7 @@ Scenario: Verify Password input is available
 
 @TC_003 @smoke
 Scenario: Verify LOGIN is available
-	Then Verify "LOGIN" is visible 
+	Then Verify LOGIN is visible 
 
 @TC_004 @smoke
 Scenario: Verify Table Demo is available
