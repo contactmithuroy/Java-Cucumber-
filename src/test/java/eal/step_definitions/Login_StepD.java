@@ -62,9 +62,9 @@ public class Login_StepD extends CommonMethods {
 		softAssert.softAssertEquals(actualValueOnInputBox, fieldValue, "Field is filled Up");
 	}
 
-	@Then("Click on {string} button")
-	public void click_on_button(String string) {
-		String alertActualMessage = hmpage_pom.clickOnLoginWith_invalid_credentials();
+	@Then("Click on Login button")
+	public void click_on_login_button() {
+		String alertActualMessage = hmpage_pom.clickOnLoginBtn();
 		 logger.error("⚠️ Alert text captured: " + alertActualMessage);
 		String expectedAlertText = "User is not valid";
 		softAssert.softAssertEquals(alertActualMessage,expectedAlertText, expectedAlertText);
@@ -72,7 +72,6 @@ public class Login_StepD extends CommonMethods {
 
 	@Then("Click on {string} button from the alert")
 	public void click_on_button_from_the_alert(String string) {
-		acceptAlert();
 		boolean isUseronHomePage = hmpage_pom.verify_homepage_title();
 		softAssert.softAssertEquals(isUseronHomePage,"Alert accepted and user came to homepage", "Alert not accepted");
 	}

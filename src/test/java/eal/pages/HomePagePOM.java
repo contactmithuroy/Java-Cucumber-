@@ -1,6 +1,7 @@
 package eal.pages;
 
 import org.apache.logging.log4j.*;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -151,14 +152,22 @@ public class HomePagePOM extends CommonMethods {
 
 	}
 	
-	public String clickOnLoginWith_invalid_credentials() {
+	public String clickOnLoginBtn() {
 		try {
 			logger.info("Clicking on login button");
+			
+			 logger.info("before click login button");
 			clickAndDraw(loginBtn);
-			waitForAlert();
-			String actualAlertText = getAlertText();
-			 logger.error("⚠️ Alert text captured: " + actualAlertText);
-			return actualAlertText;
+			 logger.info("After click login button");
+		
+			Alert alert = driver.switchTo().alert();
+            String text = alert.getText();
+            logger.info("alert text"+text);
+            logger.info("ALERT FOUND: " + text);
+            alert.accept();
+            logger.info("accept alert and returen"+text);
+            return text;
+     
 		} catch (Exception e) {
 			logger.error(LogColor.RED + e + LogColor.RESET);
 			return "Null";
